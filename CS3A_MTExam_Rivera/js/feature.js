@@ -31,7 +31,6 @@ function updateCart() {
     totalPrice = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
     totalPriceElement.textContent = totalPrice.toFixed(2);
 }
-// Function to add item to cart (for testing purposes)
 
 // Function to remove item from cart
 function removeFromCart(productName) {
